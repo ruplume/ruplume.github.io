@@ -9,10 +9,24 @@
             color: black;
             text-align: center;
         }
+     /* Side Images */
+        .side-image {
+            position: fixed;
+            top: 100px;
+            width: 120px;
+        }
+
+        .left {
+            left: 10px;
+        }
+
+        .right {
+            right: 10px;
+        }
 
         .container {
             width: 700px;
-            margin: auto;
+            margin: 40px auto;
             background-color: white;
             padding: 20px;
             border: 2px solid black;
@@ -52,6 +66,11 @@
 </head>
 <body>
 
+<!-- Left Margin Image -->
+<img src="left-image.jpg" class="side-image left">
+
+<!-- Right Margin Image -->
+<img src="right-image.jpg" class="side-image right">
 <div class="container">
     <h1>Welcome to My Website</h1>
 
@@ -65,7 +84,7 @@
 
     <h2 id="about">About Me</h2>
     <p>Hi I am ruplume.</p>
-    <p>I've mainly made this site to flex on my friend that I am the better html coder (not really an accomplishment but still funny). A little bit about me though: I enjoy learning about Theology and History, my favorite subject in history would have to be Christian Church history and stuff that surronds it. I come from the scottish clan "Gunn"; aut pax aut bellum. I also like Touhou, Umamusume, and anime in general</p>
+    <p>I've mainly made this site to flex on my friend that I am the better html coder (not really an accomplishment but still funny). A little bit about me though: I enjoy learning about Theology and History, my favorite subject in history would have to be Christian Church history and stuff that surronds it. I come from the scottish clan "Gunn"; aut pax aut bellum. I also like Touhou, Umamusume, black souls, and anime in general</p>
 
     <h2 id="projects">Projects</h2>
     <p>I’ve focused mainly on building practical, lightweight tools that solve specific problems for me; though none of them work anymore sadly. I created Newsfy as a C++ terminal application that lets me quickly check Arch Linux news directly from the command line without needing a browser, because I prefer staying in a minimal, keyboard-driven environment. With WDIJD, I built a Windows-based logging utility in C++ that tracks commands and application usage, mainly as a way to better understand and document system activity. XMRT is my cryptocurrency tracker centered around Monero, which I designed to monitor relevant data in a straightforward and efficient way. Across these projects, I tend to prioritize simplicity, performance, and working close to the system rather than building large, complex applications.</p>
